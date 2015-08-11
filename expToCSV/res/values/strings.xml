@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">expToCSV</string>
+    <string name="textNome">Entre com o seu nome:</string>
+    <string name="action_settings">Settings</string>
+    <string name="textIdade">Entre com a sua idade:</string>
+    <string name="textCPF">Entre com o seu CPF:</string>
+    <string name="textBotao">Exportar para CSV</string>
+
+</resources>
