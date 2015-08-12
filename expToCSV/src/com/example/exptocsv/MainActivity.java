@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 	List<Pessoa> lista = new ArrayList<Pessoa>();
 
 	/**
-	 * Method to save
+	 * Method to save test eclipse 
 	 * @param v
 	 */
 	public void Salvar(View v){
