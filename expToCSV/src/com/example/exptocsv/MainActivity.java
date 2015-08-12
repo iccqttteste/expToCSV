@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 	List<Pessoa> lista = new ArrayList<Pessoa>();
 
 	/**
-	 * Method to save
+	 * Method to save test eclipse second test
 	 * @param v
 	 */
 	public void Salvar(View v){
@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
 					"Todos os campos devem ser preenchidos corretamente", Toast.LENGTH_LONG).show();
 		
 		else{
-			//Criando objeto de pessoa
+			//Criando objeto de pessoa   First branch eclipse test
 			p = new Pessoa();
 			p.setNome(_nome);
 			p.setIdade(_idade);
