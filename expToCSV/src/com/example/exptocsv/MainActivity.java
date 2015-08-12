@@ -1,13 +1,5 @@
 package com.example.exptocsv;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Fragment;
@@ -20,6 +12,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 //import java.util.ArrayList;
 //import java.util.List;
 //import android.widget.TextView;
@@ -36,7 +36,11 @@ public class MainActivity extends Activity {
 	int _cpf;
 	
 	List<Pessoa> lista = new ArrayList<Pessoa>();
-	
+
+	/**
+	 * Method to save
+	 * @param v
+	 */
 	public void Salvar(View v){
 		
 		EditText textNome = (EditText) findViewById(R.id.editTextNome);
@@ -53,7 +57,7 @@ public class MainActivity extends Activity {
 					"Todos os campos devem ser preenchidos corretamente", Toast.LENGTH_LONG).show();
 		
 		else{
-			
+			//Criando objeto de pessoa
 			p = new Pessoa();
 			p.setNome(_nome);
 			p.setIdade(_idade);
